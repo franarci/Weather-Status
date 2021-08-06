@@ -1,0 +1,129 @@
+body{
+    padding-top: 2%;
+}
+
+.form-container{
+    margin: 0 auto;
+    align-self: center;
+    background-color:rgb(21, 21, 48);
+    max-width:max-content;
+    min-width: max-content;
+    border-radius: 3%;
+    padding: 2%;
+    color: #ddd;
+}
+
+#ciudad{
+    width: 100%;
+}
+
+#resultados{
+   margin-top: 5%;
+   display: grid;
+   margin-left: 8vw;
+   grid-gap: 50px;
+   grid-template-columns:repeat(auto-fill, 350px); 
+   margin-bottom: 5%;
+   
+}
+
+.ciudad-container{
+    padding:2%;
+    text-align: center;
+    opacity: 0.8;
+    color:rgb(255, 255, 255);
+    max-width:max-content;
+}
+
+.cabezal{
+    display: flex;
+}
+h2{
+    margin: 0 auto;
+    color: darkgoldenrod;
+    order:1;
+}
+
+.borrar{
+    order:2;
+    max-height:25px;
+    min-width: 25px ;
+    background-color:rgb(97, 26, 26);
+    border-radius: 15%;
+    color: rgb(255, 230, 230);
+    display: table;
+    cursor:pointer;
+}
+
+.x{
+    vertical-align: middle;
+    display: table-cell;
+    cursor:pointer;
+}
+
+.dropdown-container {
+    position: relative;
+    float: left;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color: #ddd}
+.sort-option:hover {
+      cursor: pointer;
+}
+
+.show {  
+      display:block;
+}
+
+footer{
+    position: fixed;
+    max-height: fit-content;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+header{
+    color: aliceblue;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    margin-bottom: 1%;
+}
+
+.mas-frio-container{
+    order: 1;
+}
+
+.mas-humedo-container{
+    order: 2;
+}
